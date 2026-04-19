@@ -26,7 +26,7 @@ var index_config_base_default = {
   //推荐
   likes: true,
   //后缀
-  suffix: false,
+  suffix: true,
   //弹幕
   live: {
     url: [
@@ -55,7 +55,7 @@ var index_config_base_default = {
   },
   //弹幕
   danmu: {
-    urls: [{ address: "https://fjj0417.dpdns.org", name: "默认" }],
+    urls: [{ address: "https://danmuapi-ten-iota.vercel.app", name: "默认" }],
     autoPush: true
   },
   //排序
